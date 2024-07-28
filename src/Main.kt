@@ -46,15 +46,20 @@ fun main() {
 
 //    8: check if the double is greater than 5 and the integer is greater than 5.
     if(oneInt>5 &&oneDouble >5){
-        println("8: check if the double is greater than 5 and the integer is greater than 5.")
+        //    10-Print the results of these logical operations.
+        println("8: check if the double is greater than 5  ${oneDouble} and the integer is greater than 5 ${oneInt}.")
     }else{
-        println("the double is less than than 5 and the integer is less than than 5.")
+        println("the double is less than than 5and the integer is less than than 5.")
     }
 //    9: check if the double is greater than 5 or the integer is greater than 5.
     if(oneInt>5 || oneDouble >5){
-        println("8: check if the double is greater than 5 or the integer is greater than 5.")
+        //    10-Print the results of these logical operations.
+
+        println("8: check if the double is greater than 5 ${oneDouble} or the integer is greater than 5 ${oneInt}. ")
     }else{
         println("the double is less than than 5 or the integer is less than than 5.")
     }
+
+
 }
 
