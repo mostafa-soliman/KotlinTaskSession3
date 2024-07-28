@@ -7,4 +7,9 @@ fun main() {
     oneInt = readln().substring(0,1).toIntOrNull()
     println("enter one integer : ${oneInt}")
 
+//2: Ask the user to enter one double (Double).
+    val oneDouble :Double?
+    println("enter one Double")
+    oneDouble = readln().substring(0,1).toDoubleOrNull()
+    println("enter one Double : ${oneDouble}")
 }
