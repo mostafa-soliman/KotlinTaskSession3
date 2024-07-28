@@ -37,8 +37,10 @@ fun main() {
     println("6: Check if the double is greater than the integer.")
 
     if( oneDouble>oneInt){
+//        7: Print the result of this comparison.
     println("the double is greater than the integer:- ${oneDouble}")
     }else{
+//        7: Print the result of this comparison.
         println("the integer is greater than the double ${oneInt}")
     }
 
