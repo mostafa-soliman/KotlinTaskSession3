@@ -33,6 +33,14 @@ fun main() {
 
     println("Remainder Integer Number ${calRemainderInt} Remainder Double Number ${calRemainderDouble}")
 
+//6: Check if the double is greater than the integer.
+    println("6: Check if the double is greater than the integer.")
+
+    if( oneDouble>oneInt){
+    println("the double is greater than the integer:- ${oneDouble}")
+    }else{
+        println("the integer is greater than the double ${oneInt}")
+    }
 
 }
 
