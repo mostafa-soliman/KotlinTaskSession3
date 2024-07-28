@@ -60,6 +60,16 @@ fun main() {
         println("the double is less than than 5 or the integer is less than than 5.")
     }
 
+//    11: Prompt the user to enter an email address.
 
+    println("Enter your Email Address")
+    val email: String = readln()
+//    Validate the entered email using a regular expression (regex).
+    val emailRegex = Regex("[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}")
+    if (emailRegex.matches(email)){
+        println("Your Email ${email}")
+    }else{
+        println("Your Email not availed")
+    }
 }
 
