@@ -21,6 +21,12 @@ println("Calculate the quotient of the double divided by the integer.")
     } else {
         println("Cannot perform division. Please ensure the integer is not null or zero, and the double is not null.")
     }
+//4: Calculate the remainder when the integer is divided by 3.
+    println("Calculate the remainder when the integer is divided by 3.")
 
+    val calRemainderInt = oneInt!!%3
+    val calRemainderDouble = oneDouble!!%3
+
+    println("Remainder Integer Number ${calRemainderInt} Remainder Double Number ${calRemainderDouble}")
 }
 
