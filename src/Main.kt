@@ -66,10 +66,12 @@ fun main() {
     val email: String = readln()
 //    Validate the entered email using a regular expression (regex).
     val emailRegex = Regex("[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}")
+//13: Print whether the entered email is valid or not.
     if (emailRegex.matches(email)){
         println("Your Email ${email}")
     }else{
         println("Your Email not availed")
     }
+
 }
 
